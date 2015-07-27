@@ -9,6 +9,7 @@
     {% comment %} Load CSS sheets before Javascript  {% endcomment %}
     {% block css %}
       {% include "_stylesheets.html" %}
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css">
     {% endblock %}
     {% include "horizon/_conf.html" %}
     {% include "horizon/client_side/_script_loader.html" %}

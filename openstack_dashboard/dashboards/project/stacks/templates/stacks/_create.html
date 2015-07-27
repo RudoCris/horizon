@@ -4,3 +4,8 @@
   <h3>{% trans "Description:" %}</h3>
   <p>{% trans "Create a new stack with the provided values." %}</p>
 {% endblock %}
+{% block modal-js %}
+<script type="text/javascript">
+    $("#id___param_instance_type").select2();
+</script>
+{% endblock %}

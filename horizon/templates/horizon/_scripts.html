@@ -107,7 +107,9 @@
 {% endfor %}
 
 {% block custom_js_files %}{% endblock %}
+
 {% endcompress %}
+<script src='https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js'></script>
 
 {% comment %} Client-side Templates (These should *not* be inside the "compress" tag.) {% endcomment %}
 {% include "horizon/client_side/templates.html" %}
